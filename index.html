@@ -33,7 +33,7 @@
             </nav>
             <button type="button" class="mobile-menu-open js-open-menu">
                 <svg class="mobile-menu-open-burger">
-                    <use href="./images/sprite.svg#frame"></use>
+                    <use href="./images/sprite.svg#burger"></use>
                 </svg>
             </button>
             <ul class="list-media list">
@@ -133,13 +133,82 @@
                 <h2 class="subtitle">What are we doing</h2>
                 <ul class="img-list list">
                     <li class="img-item">
-                        <img src="./images/img.jpg" alt="monitor" width="360" height="300" >
+                        <picture>
+                            <source
+                                srcset="./images/works/work1.webp 1x, ./images/works/work1@2x.webp 2x, ./images/works/work1@3x.webp 3x"
+                                media="(min-width: 1200px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work1.jpg 1x, ./images/works/work1@2x.jpg 2x, ./images/works/work1@3x.jpg 3x"
+                                media="(min-width: 1200px)" >
+                            <source
+                                srcset="./images/works/work1.webp 1x, ./images/works/work1@2x.webp 2x, ./images/works/work1@3x.webp 3x"
+                                media="(min-width: 768px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work1.jpg 1x, ./images/works/work1@2x.jpg 2x, ./images/works/work1@3x.jpg 3x"
+                                media="(min-width: 768px)" >
+                            <source
+                                srcset="./images/works/work1.webp 1x, ./images/works/work1@2x.webp 2x, ./images/works/work1@3x.webp 3x"
+                                media="(mmax-width: 767px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work1.jpg 1x, ./images/works/work1.jpg 2x, ./images/works/work1@3x.jpg 3x"
+                                media="(max-width: 767px)" >
+                            <img src="./images/works/work1.jpg" alt="monitor" width="360" height="300" >
+                        </picture>
                     </li>
                     <li class="img-item">
-                        <img src="./images/img1.jpg" alt="phone" width="360" height="300" >
+                        <picture>
+                            <source
+                                srcset="./images/works/work2.webp 1x, ./images/works/work2@2x.webp 2x, ./images/works/work2@3x.webp 3x"
+                                media="(min-width: 1200px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work2.jpg 1x, ./images/works/work2@2x.jpg 2x, ./images/works/work2@3x.jpg 3x"
+                                media="(min-width: 1200px)" >
+                            <source
+                                srcset="./images/works/work2.webp 1x, ./images/works/work2@2x.webp 2x, ./images/works/work2@3x.webp 3x"
+                                media="(min-width: 768px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work2.jpg 1x, ./images/works/work2@2x.jpg 2x, ./images/works/work2@3x.jpg 3x"
+                                media="(min-width: 768px)" >
+                            <source
+                                srcset="./images/works/work2.webp 1x, ./images/works/work2@2x.webp 2x, ./images/works/work2@3x.webp 3x"
+                                media="(mmax-width: 767px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work2.jpg 1x, ./images/works/work2@2x.jpg 2x, ./images/works/work2@3x.jpg 3x"
+                                media="(max-width: 767px)" >
+                            <img src="./images/works/work2.jpg" alt="phone" width="360" height="300" >
+                        </picture>
                     </li>
                     <li class="img-item">
-                        <img src="./images/img2.jpg" alt="laptop" width="360" height="300" >
+                        <picture>
+                            <source
+                                srcset="./images/works/work3.webp 1x, ./images/works/work3@2x.webp 2x, ./images/works/work3@3x.webp 3x"
+                                media="(min-width: 1200px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work3.jpg 1x, ./images/works/work3@2x.jpg 2x, ./images/works/work3@3x.jpg 3x"
+                                media="(min-width: 1200px)" >
+                            <source
+                                srcset="./images/works/work3.webp 1x, ./images/works/work3@2x.webp 2x, ./images/works/work3@3x.webp 3x"
+                                media="(min-width: 768px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work3.jpg 1x, ./images/works/work3@2x.jpg 2x, ./images/works/work3@3x.jpg 3x"
+                                media="(min-width: 768px)" >
+                            <source
+                                srcset="./images/works/work3.webp 1x, ./images/works/work3@2x.webp 2x, ./images/works/work3@3x.webp 3x"
+                                media="(mmax-width: 767px)"
+                                type="image/webp" >
+                            <source
+                                srcset="./images/works/work3.jpg 1x, ./images/works/work3@2x.jpg 2x, ./images/works/work3@3x.jpg 3x"
+                                media="(max-width: 767px)" >
+                            <img src="./images/works/work3.jpg" alt="laptop" width="360" height="300" >
+                        </picture>
                     </li>
                 </ul>
             </div>
@@ -153,7 +222,31 @@
                 <ul class="photo-list list">
                     <li class="photo-item">
                         <div class="photo-link">
-                            <img src="./images/photo1.jpg" alt="mark" width="264" height="260" >
+                            <picture>
+                                <source
+                                    srcset="./images/our-team/photo1.webp 1x, ./images/our-team/photo1@2x.webp 2x, ./images/our-team/photo1@3x.webp 3x"
+                                    media="(min-width: 1200px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo1.jpg 1x, ./images/our-team/photo1@2x.jpg 2x, ./images/our-team/photo1@3x.jpg 3x"
+                                    media="(min-width: 1200px)" >
+                                <source
+                                    srcset="./images/our-team/photo1.webp 1x, ./images/our-team/photo1@2x.webp 2x, ./images/our-team/photo1@3x.webp 3x"
+                                    media="(min-width: 768px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo1.jpg 1x, ./images/our-team/photo1@2x.jpg 2x, ./images/our-team/photo1@3x.jpg 3x"
+                                    media="(min-width: 768px)" >
+                                <source
+                                    srcset="./images/our-team/photo1.webp 1x, ./images/our-team/photo1@2x.webp 2x, ./images/our-team/photo1@3x.webp 3x"
+                                    media="(mmax-width: 767px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo1.jpg 1x, ./images/our-team/photo1@2x.jpg 2x, ./images/our-team/photo1@3x.jpg 3x"
+                                    media="(max-width: 767px)" >
+                                <img src="./images/our-team/photo1.jpg" alt="mark" width="264" height="260" >
+                            </picture>
+                            
                             <div class="photo-title-text">
                                 <h3 class="team-title-item center">Mark Guerrero</h3>
                                 <p class="team-text-item theme-light center">Product Designer</p>
@@ -192,7 +285,30 @@
                     </li>
                     <li class="photo-item">
                         <div class="photo-link">
-                            <img src="./images/photo2.jpg" alt="tom" width="264" height="260" >
+                            <picture>
+                                <source
+                                    srcset="./images/our-team/photo2.webp 1x, ./images/our-team/photo2@2x.webp 2x, ./images/our-team/photo2@3x.webp 3x"
+                                    media="(min-width: 1200px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo2.jpg 1x, ./images/our-team/photo2@2x.jpg 2x, ./images/our-team/photo2@3x.jpg 3x"
+                                    media="(min-width: 1200px)" >
+                                <source
+                                    srcset="./images/our-team/photo2.webp 1x, ./images/our-team/photo2@2x.webp 2x, ./images/our-team/photo2@3x.webp 3x"
+                                    media="(min-width: 768px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo2.jpg 1x, ./images/our-team/photo2@2x.jpg 2x, ./images/our-team/photo2@3x.jpg 3x"
+                                    media="(min-width: 768px)" >
+                                <source
+                                    srcset="./images/our-team/photo2.webp 1x, ./images/our-team/photo2@2x.webp 2x, ./images/our-team/photo2@3x.webp 3x"
+                                    media="(mmax-width: 767px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo2.jpg 1x, ./images/our-team/photo2@2x.jpg 2x, ./images/our-team/photo2@3x.jpg 3x"
+                                    media="(max-width: 767px)" >
+                                <img src="./images/our-team/photo2.jpg" alt="tom" width="264" height="260" >
+                            </picture>
                             <div class="photo-title-text">
                                 <h3 class="team-title-item center">Tom Ford</h3>
                                 <p class="team-text-item theme-light center">Frontend Developer</p>
@@ -231,7 +347,30 @@
                     </li>
                     <li class="photo-item">
                         <div class="photo-link">
-                            <img src="./images/photo3.jpg" alt="camila" width="264" height="260" >
+                            <picture>
+                                <source
+                                    srcset="./images/our-team/photo3.webp 1x, ./images/our-team/photo3@2x.webp 2x, ./images/our-team/photo3@3x.webp 3x"
+                                    media="(min-width: 1200px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo3.jpg 1x, ./images/our-team/photo3@2x.jpg 2x, ./images/our-team/photo3@3x.jpg 3x"
+                                    media="(min-width: 1200px)" >
+                                <source
+                                    srcset="./images/our-team/photo3.webp 1x, ./images/our-team/photo3@2x.webp 2x, ./images/our-team/photo3@3x.webp 3x"
+                                    media="(min-width: 768px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo3.jpg 1x, ./images/our-team/photo3@2x.jpg 2x, ./images/our-team/photo3@3x.jpg 3x"
+                                    media="(min-width: 768px)" >
+                                <source
+                                    srcset="./images/our-team/photo3.webp 1x, ./images/our-team/photo3@2x.webp 2x, ./images/our-team/photo3@3x.webp 3x"
+                                    media="(mmax-width: 767px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo3.jpg 1x, ./images/our-team/photo3@2x.jpg 2x, ./images/our-team/photo3@3x.jpg 3x"
+                                    media="(max-width: 767px)" >
+                                <img src="./images/our-team/photo3.jpg" alt="tom" width="264" height="260" >
+                            </picture>
                             <div class="photo-title-text">
                                 <h3 class="team-title-item center">Camila Garcia</h3>
                                 <p class="team-text-item theme-light center">Marketing</p>
@@ -270,7 +409,30 @@
                     </li>
                     <li class="photo-item">
                         <div class="photo-link">
-                            <img src="./images/photo4.jpg" alt="daniel" width="264" height="260" >
+                            <picture>
+                                <source
+                                    srcset="./images/our-team/photo4.webp 1x, ./images/our-team/photo4@2x.webp 2x, ./images/our-team/photo4@3x.webp 3x"
+                                    media="(min-width: 1200px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo4.jpg 1x, ./images/our-team/photo4@2x.jpg 2x, ./images/our-team/photo4@3x.jpg 3x"
+                                    media="(min-width: 1200px)" >
+                                <source
+                                    srcset="./images/our-team/photo4.webp 1x, ./images/our-team/photo4@2x.webp 2x, ./images/our-team/photo4@3x.webp 3x"
+                                    media="(min-width: 768px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo4.jpg 1x, ./images/our-team/photo4@2x.jpg 2x, ./images/our-team/photo4@3x.jpg 3x"
+                                    media="(min-width: 768px)" >
+                                <source
+                                    srcset="./images/our-team/photo4.webp 1x, ./images/our-team/photo4@2x.webp 2x, ./images/our-team/photo4@3x.webp 3x"
+                                    media="(mmax-width: 767px)"
+                                    type="image/webp" >
+                                <source
+                                    srcset="./images/our-team/photo4.jpg 1x, ./images/our-team/photo4@2x.jpg 2x, ./images/our-team/photo4@3x.jpg 3x"
+                                    media="(max-width: 767px)" >
+                                <img src="./images/our-team/photo4.jpg" alt="tom" width="264" height="260" >
+                            </picture>
                             <div class="photo-title-text">
                                 <h3 class="team-title-item center">Daniel Wilson</h3>
                                 <p class="team-text-item theme-light center">UI Designer</p>
@@ -313,7 +475,7 @@
 
         <!--Customers-->
 
-        <!--<section class="customers">
+        <section class="customers">
             <div class="container">
                 <h2 class="subtitle">Customers</h2>
                 <ul class="list customers-svg">
@@ -361,52 +523,54 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
+        </section>
     </main>
 
     <!--footer-->
 
-    <!--<footer class="footer">
-        <div class="container footer-content">
-            <div>
-                <a class="logo link logo-dark" href=""><span class="logo-first">Web</span>Studio</a>
-                <p class="text-item theme-dark footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-            </div>
-            <div  class="footer-text-content">
-                <h2 class="footer-title">Social media</h2>
-                <ul class="footer-images list">
-                    <li class="footer-image">
-                        <a class="footer-link" href="">
-                            <svg class="footer-svg">
-                                <use href="./images/sprite.svg#instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-image">
-                        <a class="footer-link" href="">
-                            <svg class="footer-svg">
-                                <use href="./images/sprite.svg#twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-image">
-                        <a class="footer-link" href="">
-                            <svg class="footer-svg">
-                                <use href="./images/sprite.svg#facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-image">
-                        <a class="footer-link" href="">
-                            <svg class="footer-svg">
-                                <use href="./images/sprite.svg#linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+    <footer class="footer">
+        <div class="container footer-content footer-tablet">
+            <div class="footer-content-logo">
+                <div>
+                    <a class="logo link logo-dark center-text" href=""><span class="logo-first">Web</span>Studio</a>
+                    <p class="text-item theme-dark footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+                </div>
+                <div  class="footer-text-content">
+                    <h2 class="footer-title center-text">Social media</h2>
+                    <ul class="footer-images list">
+                        <li class="footer-image">
+                            <a class="footer-link" href="">
+                                <svg class="footer-svg">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-image">
+                            <a class="footer-link" href="">
+                                <svg class="footer-svg">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-image">
+                            <a class="footer-link" href="">
+                                <svg class="footer-svg">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-image">
+                            <a class="footer-link" href="">
+                                <svg class="footer-svg">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-text-subscribe">
-                <h2 class="footer-title">Subscribe</h2>
+                <h2 class="footer-title center-text">Subscribe</h2>
                 <form class="footer-form">
                     <input type="email" name="footer-user-name" class="footer-user-mail" placeholder="E-mail" required>
                     <div class="footer-user-btn">
@@ -418,7 +582,7 @@
                 </form>
             </div>
         </div>
-    </footer>-->
+    </footer>
 
     <!--backdrop-->
 
