@@ -1368,15 +1368,14 @@ body {
 
 /*---------------portfolio---------------*/
 
+.main-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 .portfolio-btn {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 48px;
-}
-
-.portfolio-container {
-    margin-top: 48px;
-    margin-bottom: 48px;
 }
 
 .button-list {
@@ -1392,6 +1391,7 @@ body {
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 48px;
 }
 
 .portfolio-item {
@@ -1464,7 +1464,7 @@ body {
         margin-right: 24px;
     }
 
-    .portfolio-item:not(:nth-last-child(-n+2)) {
+    .portfolio-item:not(:last-child) {
         margin-bottom: 72px;
     }
 } 
